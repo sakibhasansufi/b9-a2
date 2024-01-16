@@ -4,6 +4,11 @@
     font-family: 'Mulish', sans-serif;
 }
 
+*{
+    margin:0;
+}
+
+
 
 /* shared styles */
 header,
@@ -53,7 +58,7 @@ main {
 nav {
     display: flex;
     justify-content: space-between;
-    margin-top: -100px;
+    margin-top: -55px;
     margin-left: 70px;
 }
 
@@ -66,7 +71,7 @@ nav {
     line-height: normal;
 }
 
-nav h4 {
+.name, .footer-name {
     color: #131318;
     font-family: Mulish;
     font-size: 36px;
@@ -81,7 +86,7 @@ nav h4 {
 
 ul #nav-li {
     list-style: none;
-    margin-top: 8.5%;
+    margin-top: 3%;
     margin-right: 44px;
 }
 
@@ -104,7 +109,7 @@ li span {
     background-image: url('../assets/Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1230px;
+    width: 1250px;
     height: 500px;
     border-radius: 16px;
     margin-top: 50px;
@@ -134,7 +139,7 @@ li span {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    margin-top: -20px;
+    margin-top: 20px;
 }
 
 /* header section input */
@@ -180,19 +185,23 @@ select {
 #tour {
     display: flex;
     margin-top: 50px;
-    gap: 100px;
+    gap: 80px;
 }
 
+#caption{
+    margin-top: 20px;
+}
 
-
-
-
+.tour-li{
+    margin-top: 10px;
+}
 .tour-image img {
-    width: 550px;
+    width: 490px;
     height: 450px;
 }
 
 .tour-paragraph {
+    margin-top: 10px;
     margin-bottom: 32px;
 }
 
@@ -201,12 +210,17 @@ select {
     margin-top: 100px;
 }
 
+
 .destination-description {
     text-align: center;
 }
 
 .destination-paragraph {
-    margin-top: -15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.destination-pic{
+    margin-left: 35px;
 }
 
 .destination-pic img {
@@ -236,7 +250,7 @@ select {
 
 .choice-card-first {
     width: 541px;
-    height: 250px;
+    height: 230px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
@@ -245,26 +259,32 @@ select {
 
 .choice-card-second {
     width: 541px;
-    height: 250px;
+    height: 230px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     padding: 32px;
 }
 
-.choice-card-title {
+.choice-card-title,
+.newsletter-title {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
 }
 
+.choice-card-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 .choice-paragraph {
-    margin-top: -40px;
+    margin-top: 20px;
 }
 
 .choice-card-item-sequal {
     width: 541px;
-    height: 250px;
+    height: 230px;
     flex-shrink: 0;
     margin-top: 20px;
     margin-left: 23.5%;
@@ -277,12 +297,114 @@ select {
 /* place section style */
 #place {
     display: flex;
-    margin-top: 200px;
-    gap: 28px;
+    margin-top: 100px;
+    gap: 26px;
+}
+.place-paragraph{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.place-li{
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .place-video video {
     width: 610px;
-    height: 400px;
+    height: 500px;
     flex-shrink: 0;
 }
+
+/* newsletter related style */
+
+#newsletter {
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+form input {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 20px;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-left: 20px;
+}
+
+#button {
+    width: 417px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.newsletter-container {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding-left: 25px;
+    padding-top: 15px;
+    height: 300px;
+}
+
+.newsletter-paragraph{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#newsletter-image{
+    width: 750px;
+    height: 320px;
+}
+/*  footer section */
+#footer {
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-top: 110px;
+}
+.footer-header{
+    display: flex;
+    justify-content: center;
+}
+
+#footer-img{
+    width: 40px;
+    height: 40px;
+}
+
+.footer-name{
+    margin-top: -10px;
+    margin-left: 15px;
+}
+
+.footer-paragraph{
+    margin-top: 24px;
+    text-align: center;
+}
+
+.social-links{
+    height: 30px;
+    margin-top: 33px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+ .hr{
+    margin-left: 170px;
+    width: 1200px;
+    margin-top: 30px;
+}
+
+#footer-paragraph{
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 70px;
+} 
