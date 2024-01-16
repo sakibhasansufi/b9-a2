@@ -4,8 +4,8 @@
     font-family: 'Mulish', sans-serif;
 }
 
-*{
-    margin:0;
+* {
+    margin: 0;
 }
 
 
@@ -71,13 +71,11 @@ nav {
     line-height: normal;
 }
 
-.name, .footer-name {
+.name,
+.footer-name {
     color: #131318;
-    font-family: Mulish;
     font-size: 36px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
 
 .nav-section {
@@ -188,13 +186,14 @@ select {
     gap: 80px;
 }
 
-#caption{
+#caption {
     margin-top: 20px;
 }
 
-.tour-li{
+.tour-li {
     margin-top: 10px;
 }
+
 .tour-image img {
     width: 490px;
     height: 450px;
@@ -219,7 +218,8 @@ select {
     margin-top: 20px;
     margin-bottom: 15px;
 }
-.destination-pic{
+
+.destination-pic {
     margin-left: 35px;
 }
 
@@ -273,7 +273,7 @@ select {
     font-weight: 800;
 }
 
-.choice-card-title{
+.choice-card-title {
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -300,12 +300,13 @@ select {
     margin-top: 100px;
     gap: 26px;
 }
-.place-paragraph{
+
+.place-paragraph {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.place-li{
+.place-li {
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -355,41 +356,44 @@ form input {
     height: 300px;
 }
 
-.newsletter-paragraph{
+.newsletter-paragraph {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-#newsletter-image{
+
+#newsletter-image {
     width: 750px;
     height: 320px;
 }
+
 /*  footer section */
 #footer {
     margin-top: 100px;
     background: rgba(19, 19, 24, 0.05);
     padding-top: 110px;
 }
-.footer-header{
+
+.footer-header {
     display: flex;
     justify-content: center;
 }
 
-#footer-img{
+#footer-img {
     width: 40px;
     height: 40px;
 }
 
-.footer-name{
+.footer-name {
     margin-top: -10px;
     margin-left: 15px;
 }
 
-.footer-paragraph{
+.footer-paragraph {
     margin-top: 24px;
     text-align: center;
 }
 
-.social-links{
+.social-links {
     height: 30px;
     margin-top: 33px;
     gap: 30px;
@@ -397,14 +401,89 @@ form input {
     justify-content: center;
 }
 
- .hr{
+.hr {
     margin-left: 170px;
     width: 1200px;
     margin-top: 30px;
 }
 
-#footer-paragraph{
+#footer-paragraph {
     margin-top: 40px;
     text-align: center;
     padding-bottom: 70px;
-} 
+}
+
+footer {
+    display: none;
+}
+
+/* responsiveness for small devices */
+@media screen and (max-width:576px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* nav related style */
+    nav {
+        flex-direction: column;
+    }
+    .nav-section{
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .name,#travel {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    /* header section related style */
+    .header-section {
+        width: 335px;
+        height: 483px;
+        border-radius: 16px;
+    }
+
+    .header-section-description h1 {
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    .header-section-description p {
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .header-section-description {
+        position: relative;
+        top: 80px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .btn-primary{
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+    .header-input-description{
+        height: 250px;
+        width: 190px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        border-radius: 16px;
+    }
+
+    
+
+    
+
+
+
+
+}
