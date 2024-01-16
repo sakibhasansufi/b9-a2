@@ -477,7 +477,7 @@ form input {
     }
 
     main, header{
-        margin-left: -100px;
+        margin-left: -95px;
     }
     /* tour related style */
     #tour{
@@ -581,15 +581,26 @@ form input {
         width: 350px;
     }
 
-    .hr {
-        margin-left: 170px;
-        width: 1200px;
-        margin-top: 30px;
-        display: none;
+    #button{
+        width: 300px;
     }
 
+    
+/* footer section */
     #footer{
         width: 414px;
+    }
+
+    .footer-paragraph{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .hr {
+        margin-left: 1px;
+        width: 410px;
+        margin-top: 30px;
+        /* display: none; */
     }
 
 
