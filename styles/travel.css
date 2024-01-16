@@ -413,9 +413,6 @@ form input {
     padding-bottom: 70px;
 }
 
-footer {
-    display: none;
-}
 
 /* responsiveness for small devices */
 @media screen and (max-width:576px) {
@@ -478,6 +475,10 @@ footer {
         padding-bottom: 10px;
         border-radius: 16px;
     }
+
+    main, header{
+        margin-left: -100px;
+    }
     /* tour related style */
     #tour{
         flex-direction: column;
@@ -518,6 +519,77 @@ footer {
     .destination-pic img{
         margin-left: -35px;
         width: 340px;
+    }
+    .choice-heading{
+        width: 340px;
+    }
+    
+
+    .choice-card-item{
+        flex-direction: column;
+    }
+    .choice-card-first{
+        width: 275px;
+    }
+    .choice-card-second{
+        width: 275px;
+    }
+    .choice-card-item-sequal{
+        margin-left: 0px;
+        width: 275px;
+    }
+
+    /* place related style */
+    #place{
+        flex-direction: column;
+    }
+    .place-container{
+        width: 340px;
+    }
+    .place-title{
+        font-size: 20px;
+    }
+
+    .place-li{
+        margin-left: 20px;
+    }
+
+    #see{
+        margin-left: 1px;
+        width: 174px;
+    }
+
+    #i{
+        width: 340px;
+    }
+
+    /* newsletter related style */
+    #newsletter{
+        flex-direction: column;
+    }
+
+    .in{
+        width: 280px;
+    }
+
+    .newsletter-container{
+        width: 320px;
+        height: 310px;
+    }
+
+    #newsletter-image{
+        width: 350px;
+    }
+
+    .hr {
+        margin-left: 170px;
+        width: 1200px;
+        margin-top: 30px;
+        display: none;
+    }
+
+    #footer{
+        width: 414px;
     }
 
 
