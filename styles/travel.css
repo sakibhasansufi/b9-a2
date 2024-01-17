@@ -212,6 +212,19 @@ select {
     margin-top: 100px;
 }
 
+.destination-pic{
+    position: relative;
+}
+
+.one-text{
+    position: absolute;
+    top: 17%;
+    left: 17%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
 
 .destination-description {
     text-align: center;
@@ -565,6 +578,11 @@ form input {
     .destination-pic img {
         margin-left: -35px;
         width: 340px;
+    }
+
+    .one-text{
+        top: 6.2%;
+        left: 38%;
     }
 
     .choice-heading {
