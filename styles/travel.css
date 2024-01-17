@@ -369,8 +369,8 @@ form input {
 
 #jetset {
     position: relative;
-    left: 550px;
-    bottom: 110px;
+    left: 520px;
+    bottom: 150px;
     transform: rotate(-30deg);
     border-radius: 8px;
     background: #FF5400;
@@ -378,10 +378,12 @@ form input {
     color: #FFF;
     font-size: 12px;
     font-weight: 800;
+    height: 100px;
+    padding: 20px;
 }
 
 .save {
-    color:#FFF;
+    color: #FFF;
     font-size: 24px;
     font-weight: 800;
 }
@@ -458,7 +460,7 @@ form input {
         font-weight: 800;
     }
 
-    .name{
+    .name {
         margin-top: 15px;
     }
 
@@ -624,14 +626,20 @@ form input {
 
     #jetset {
         position: relative;
-        left: 160px;
-        bottom: 100px;
+        left: 145px;
+        bottom: 130px;
+        font-size: 12px;
+        font-weight: 800;
+        height: 80px;
+        padding: 10px;
+
     }
 
 
     /* footer section */
     #footer {
         width: 414px;
+        margin-top: -10px;
     }
 
     .footer-paragraph {
@@ -643,7 +651,6 @@ form input {
         margin-left: 1px;
         width: 410px;
         margin-top: 30px;
-        /* display: none; */
     }
 
 
