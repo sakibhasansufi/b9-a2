@@ -228,6 +228,7 @@ select {
     margin-top: 24px;
 }
 
+
 /* choice section */
 #choice {
     margin-top: 100px;
@@ -366,6 +367,25 @@ form input {
     height: 320px;
 }
 
+#jetset {
+    position: relative;
+    left: 550px;
+    bottom: 110px;
+    transform: rotate(-30deg);
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.save {
+    color:#FFF;
+    font-size: 24px;
+    font-weight: 800;
+}
+
 /*  footer section */
 #footer {
     margin-top: 100px;
@@ -415,7 +435,7 @@ form input {
 
 
 /* responsiveness for small devices */
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
     * {
         margin: 0;
         padding: 0;
@@ -425,15 +445,21 @@ form input {
     nav {
         flex-direction: column;
     }
-    .nav-section{
+
+    .nav-section {
         margin-top: 10%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .name,#travel {
+    .name,
+    #travel {
         font-size: 20px;
         font-weight: 800;
+    }
+
+    .name{
+        margin-top: 15px;
     }
 
     /* header section related style */
@@ -463,11 +489,12 @@ form input {
 
     }
 
-    .btn-primary{
+    .btn-primary {
         margin-top: 15px;
         margin-left: -15px;
     }
-    .header-input-description{
+
+    .header-input-description {
         height: 250px;
         width: 190px;
         padding-top: 10px;
@@ -476,122 +503,138 @@ form input {
         border-radius: 16px;
     }
 
-    main, header{
+    main,
+    header {
         margin-left: -95px;
     }
+
     /* tour related style */
-    #tour{
+    #tour {
         flex-direction: column;
     }
 
-    .tour-description{
+    .tour-description {
         margin-top: -50px;
         width: 350px;
     }
 
-    .tour-heading{
+    .tour-heading {
         font-size: 20px;
     }
 
-    .tour-li{
+    .tour-li {
         margin-left: 25px;
     }
 
-    #button{
+    #button {
         margin-left: 1px;
         width: 174px;
     }
 
-    .tour-image img{
+    .tour-image img {
         margin-top: -40px;
         width: 335px;
         height: 342px;
     }
 
     /* destination style */
-    .destination-description{
+    .destination-description {
         margin-top: -60px;
         width: 350px;
     }
-    .destination-heading{
+
+    .destination-heading {
         font-size: 20px;
     }
-    .destination-pic img{
+
+    .destination-pic img {
         margin-left: -35px;
         width: 340px;
     }
-    .choice-heading{
+
+    .choice-heading {
         width: 340px;
     }
-    
 
-    .choice-card-item{
+
+    .choice-card-item {
         flex-direction: column;
     }
-    .choice-card-first{
+
+    .choice-card-first {
         width: 275px;
     }
-    .choice-card-second{
+
+    .choice-card-second {
         width: 275px;
     }
-    .choice-card-item-sequal{
+
+    .choice-card-item-sequal {
         margin-left: 0px;
         width: 275px;
     }
 
     /* place related style */
-    #place{
+    #place {
         flex-direction: column;
     }
-    .place-container{
+
+    .place-container {
         width: 340px;
     }
-    .place-title{
+
+    .place-title {
         font-size: 20px;
     }
 
-    .place-li{
+    .place-li {
         margin-left: 20px;
     }
 
-    #see{
+    #see {
         margin-left: 1px;
         width: 174px;
     }
 
-    #i{
+    #i {
         width: 340px;
     }
 
     /* newsletter related style */
-    #newsletter{
+    #newsletter {
         flex-direction: column;
     }
 
-    .in{
+    .in {
         width: 280px;
     }
 
-    .newsletter-container{
+    .newsletter-container {
         width: 320px;
         height: 310px;
     }
 
-    #newsletter-image{
+    #newsletter-image {
         width: 350px;
     }
 
-    #button{
+    #button {
         width: 300px;
     }
 
-    
-/* footer section */
-    #footer{
+    #jetset {
+        position: relative;
+        left: 160px;
+        bottom: 100px;
+    }
+
+
+    /* footer section */
+    #footer {
         width: 414px;
     }
 
-    .footer-paragraph{
+    .footer-paragraph {
         padding-left: 5%;
         padding-right: 5%;
     }
